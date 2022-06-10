@@ -1,0 +1,21 @@
+.footer{
+    
+    height: 100px;
+    width: 80%;
+    
+    border: 1px solid red;
+    display: flex;
+    /* flex-direction: row; */
+  justify-content: space-evenly;
+
+    margin: auto;
+    /* margin-top: 50px; */
+    padding: 24px 0 30px;
+    /* margin-left: 2%; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* padding: 10px; */
+    gap: 10px;
+    /* box-sizing: border-box; */
+    line-height: 1px;
+}
