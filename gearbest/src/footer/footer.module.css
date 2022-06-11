@@ -18,4 +18,111 @@
     gap: 10px;
     /* box-sizing: border-box; */
     line-height: 1px;
+    margin-bottom: 4%;
+}
+
+.footer2nddiv{
+
+  height: 100px;
+  width: 80%;
+  
+  border: 1px solid red;
+  display: flex;
+justify-content: space-evenly;
+
+  margin: auto;
+  padding: 24px 0 30px;
+
+  gap: 10px;
+  line-height: 1px;
+  margin-bottom: 4%;
+
+}
+.footer3nddiv{
+
+  /* height: 100px; */
+  width: 80%;
+  
+  border: 1px solid black;
+  display: flex;
+justify-content: space-evenly;
+
+  margin: auto;
+  padding: 24px 0 30px;
+
+  gap: 10px;
+  line-height: 1px;
+  margin-bottom: 4%;
+
+}
+
+.lastDivfooter{
+
+  width: 80%;
+  
+  border: 1px solid black;
+  display: flex;
+justify-content: space-evenly;
+
+  margin: auto;
+  padding: 24px 0 30px;
+
+  /* gap: 10px; */
+  line-height: 1px;
+  margin-bottom: 4%;
+}
+.btnfooter{
+  background-color: black;
+  color: white;
+  height: 40px;
+  
+}
+.inp{
+  height: 30px;
+  /* width: 80%; */
+}
+
+.h:hover{
+
+  color: gold;
+
+}
+.p:hover, .p:active{
+  text-decoration: underline;
+
+}
+.p{
+ line-height: 8px;
+}
+
+.iconHeight{
+  font-size: 30px;
+  justify-content: center;
+  /* margin-top: 2%; */
+
+}
+.icon1Height:hover{
+  background-color: blue;
+  font-size: 30px;
+  justify-content: center;
+}
+.icon2Height:hover{
+  background-color: red;
+  font-size: 30px;
+  justify-content: center;
+}
+.icon3Height:hover{
+  background-color: rgb(74, 46, 46);
+  font-size: 30px;
+  justify-content: center;
+}
+.icon4Height:hover{
+  background-color: blue;
+  font-size: 30px;
+  justify-content: center;
+}
+.icon5Height:hover{
+  background-color: blue;
+  font-size: 30px;
+  justify-content: center;
 }

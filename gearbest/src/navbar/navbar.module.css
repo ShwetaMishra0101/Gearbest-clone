@@ -1,0 +1,42 @@
+.nav{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.nav1{
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+
+.nav2{
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    border: 1px solid bisque;
+}
+.inp{
+    height: 30px;
+    width: 100%;
+
+}
+
+.navbardiv{
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    border: 1px solid brown;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+}
