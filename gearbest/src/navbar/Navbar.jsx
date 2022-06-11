@@ -7,7 +7,9 @@ const Navbar = () => {
 
         <div className={styled.nav}>
             <div></div>
-            <div>wsd</div>
+            <div>
+   
+            </div>
 
         </div>
             <div className={styled.nav1}>

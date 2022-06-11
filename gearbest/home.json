@@ -1,10 +1,108 @@
 {
   "home":[
-      {"id":1,"img":"https://gloimg.gbtcdn.com/soa/gb/item/6900386065325158400/16545/goods_img-v3/49bbbbea2c5b.jpg","name":"Xiaomi Fan 2 Smart Standing double layer fan blade Portable rechargeable Dual natural wind Intelligent Mihome app control DC inverter motor - White Germany","Price":" $69.99 "},
-      {"id":2,"img":"https://gloimg.gbtcdn.com/soa/gb/item/6870745450383863808/16539/goods_img-v1/7a6e1bdf0f46.jpg","name":"Haylou RS4 smart watches Global version Blood oxygen monitor 12 Sport Models Heart Rate Monito Sleep monitor Custom watch face - Black","Price":"$49.99 "},
-      {"id":3,"img":"https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16534/goods_img-v1/ed230b4b2700.jpg" ,"name":"Original Xiaomi Mi Band 7 / 7 NFC Smart Wristband 1.62 inch AMOLED Screen Blood Oxygen Fitness Bracelet Bluetooth Waterproof Traker Heart Rate Monitor - Black Mi Band 7","Price":"$48.99"},
-      {"id":4,"img":"https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16499/goods_img-v5/6233d35f6f8a.jpg" ,"name":"Global Version MI 11 Ultra 6.3 inch Smartphone 12Gb Cell Phone Unlocked 2022 5G Mobile Phones Cheap Android Xaiomi Telephone Xiomi - Black 16G 512GB","Price":" $115.90 "},
-      {"id":5,"img":"https://gloimg.gbtcdn.com/soa/gb/item/6898341271098814464/16469/goods_img-v1/126354806df6.jpg" ,"name":"Xiaomi PEN Mijia Super Durable Sign Pen 0.5mm MI Pen For Office Signing Pens Smooth Switzerland Refill Mikuni For School Pen - Black China 1 PCS","Price":"$2.59"}
+      {
+        "id":1,
+        "img":"https://gloimg.gbtcdn.com/soa/gb/item/6900386065325158400/16545/goods_img-v3/49bbbbea2c5b.jpg",
+        "name":"Xiaomi Fan 2 Smart Standing double layer fan blade Portable rechargeable Dual natural wind Intelligent Mihome app control DC inverter motor - White Germany",
+        "Price":" $69.99 "
+      },
+      {
+        "id":2,
+        "img":"https://gloimg.gbtcdn.com/soa/gb/item/6870745450383863808/16539/goods_img-v1/7a6e1bdf0f46.jpg",
+        "name":"Haylou RS4 smart watches Global version Blood oxygen monitor 12 Sport Models Heart Rate Monito Sleep monitor Custom watch face - Black",
+        "Price":"$49.99 "
+      },
+      {
+        "id":3,
+        "img":"https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16534/goods_img-v1/ed230b4b2700.jpg" ,
+        "name":"Original Xiaomi Mi Band 7 / 7 NFC Smart Wristband 1.62 inch AMOLED Screen Blood Oxygen Fitness Bracelet Bluetooth Waterproof Traker Heart Rate Monitor - Black Mi Band 7",
+        "Price":"$48.99"
+      },
+      {
+        "id":4,
+        "img":"https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16499/goods_img-v5/6233d35f6f8a.jpg" ,
+        "name":"Global Version MI 11 Ultra 6.3 inch Smartphone 12Gb Cell Phone Unlocked 2022 5G Mobile Phones Cheap Android Xaiomi Telephone Xiomi - Black 16G 512GB",
+        "Price":" $115.90 "
+      },
+      {
+        "id":5,
+        "img":"https://gloimg.gbtcdn.com/soa/gb/item/6898341271098814464/16469/goods_img-v1/126354806df6.jpg" ,
+        "name":"Xiaomi PEN Mijia Super Durable Sign Pen 0.5mm MI Pen For Office Signing Pens Smooth Switzerland Refill Mikuni For School Pen - Black China 1 PCS",
+        "Price":"$2.59"
+      }
 
+  ],
+
+  "Cuopon":[
+
+    {
+      "id":1,
+      "img":"https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16529/goods_thumb_220-v1/9eaea3641e6a.jpg" ,
+      "name":"LEMFO Smart Watch Men New Bluetooth Call IP68 Waterproof Smartwatch For Men 2022 Sports NFC For Android IOS 360 HD Screen LF31 - add black Silicone",
+      "Price":" $49.99 ",
+      "dis":"RRP: $99.98"
+    },
+    {
+      "id":2,
+      "img":"https://www.gearbest.com/laser-engraving-machine/pp_3002366860229492.html?wid=2000001" ,
+      "name":"Laser Engraver ATOMSTACK A5 Pro+ 40W Metal Machine Wood Acrylic Cutting Stainless Steel Glass Engraving CNC Router DIY Crafting - A5 Pro plus AU PLUG",
+      "Price":"$341.99",
+      "dis":"RRP: $379.99"
+    }
+
+  ],
+
+  "Super":[
+
+    {
+      "id":1,
+      "img":"https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16529/goods_thumb_220-v1/9eaea3641e6a.jpg" ,
+      "name":"LEMFO Smart Watch Men New Bluetooth Call IP68 Waterproof Smartwatch For Men 2022 Sports NFC For Android IOS 360 HD Screen LF31 - add black Silicone",
+      "Price":" $49.99 ",
+      "dis":"RRP: $99.98"
+    },
+    {
+      "id":2,
+      "img":"https://www.gearbest.com/laser-engraving-machine/pp_3002366860229492.html?wid=2000001" ,
+      "name":"Laser Engraver ATOMSTACK A5 Pro+ 40W Metal Machine Wood Acrylic Cutting Stainless Steel Glass Engraving CNC Router DIY Crafting - A5 Pro plus AU PLUG",
+      "Price":"$341.99",
+      "dis":"RRP: $379.99"
+    }
+
+  ],
+  "App":[
+
+    {
+      "id":1,
+      "img":"https://www.gearbest.com/tv-stick---dongle/pp_3001146717265316.html?wid=2000001" ,
+      "name":"Global Xiaomi Mi TV Box S 4K HDR Android TV 8.1 Ultra HD 2G 8G WIFI Google Cast Netflix IPTV Set top Box 4 Media Player - China EU Plug Black",
+      "Price":" $66.99",
+      "dis":"$67.99"
+    },
+    {
+      "id":2,
+      "img":"https://www.gearbest.com/electric-screwdriver/pp_3005248478637654.html?wid=2000001" ,
+      "name":"Xiaomi WOWSTICK 1F+ Electric Precision Screwdriver Kit Rechargeable Cordless Power Screw Driver with LED Light for Repairing Work - Grey",
+      "Price":" $36.88",
+      "dis":"$36.99"
+    }
+  ],
+
+  "New":[
+    {
+      "id":1,
+      "img":"https://gloimg.gbtcdn.com/soa/gb/item/6905960412823613440/16548/goods_thumb_220-v3/c5ebaad13531.jpg" ,
+      "name":"Teclast P30HD 10.1 Inch Tablet 1920x1200 IPS 4GB RAM 64GB ROM Android 11 SC9863A Octa Core 4G Network Wifi GPS Type-C - P30HD And Case",
+      "Price":"$212.86"
+      
+    },
+    {
+      "id":2,
+      "img":"https://gloimg.gbtcdn.com/soa/gb/item/6878025592978206720/16542/goods_thumb_220-v1/185db9573c5f.jpg" ,
+      "name":"2022 New Mini Drone K7 4K HD Camera Wifi FPV 4 Sides Infrared Obstacle Avoidance Altitude Hold RC Quadcopter Helicopter Toys - Gray with 1 battery",
+      "Price":"$44.99",
+      "dis":"RRP: $49.99"
+    }
   ]
+
 }
