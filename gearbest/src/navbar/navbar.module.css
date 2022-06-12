@@ -1,29 +1,29 @@
 .nav{
-    height: 50px;
+    height: 30px;
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .nav1{
-    height: 100px;
+    height: 70px;
     width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .nav2{
-    height: 100px;
-    width: 80%;
+    height: 70px;
+    width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
-    border: 1px solid bisque;
+    /* border: 1px solid bisque; */
 }
 .inp{
     height: 30px;
@@ -32,11 +32,45 @@
 }
 
 .navbardiv{
-    height: 60px;
+    height: 40px;
     width: 80%;
     margin: auto;
     border: 1px solid brown;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-
+background-color: gold;
 }
+
+.navFirst{
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.icone{
+    font-size: 30px;
+    /* justify-content: center; */
+    /* margin-top: 5%; */
+    gap: 10px;
+}
+
+.icone:hover{
+   color: gold;
+}
+.iDiv{
+    display: flex;
+    /* margin-top: 10%; */
+    
+}
+
+/* catager */
+
+.catg{
+
+    background-color:black;
+    font-size: 25px;
+    color: white;
+    height: 40px;
+    text-align: center;
+}
+

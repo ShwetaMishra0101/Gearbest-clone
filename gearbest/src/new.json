@@ -1,0 +1,91 @@
+{
+    "new":[
+
+        {
+            "id": 1,
+            "name": "",
+            "img": "https://gloimg.gbtcdn.com/soa/gb/item/6905960412823613440/16548/goods_thumb_220-v3/c5ebaad13531.jpg",
+      
+            "dis": "RRP: $43.11",
+            "price": "$212.86"
+          },
+          {
+            "id": 2,
+            "name": "",
+            "img": "https://gloimg.gbtcdn.com/soa/gb/item/6878025592978206720/16542/goods_thumb_220-v1/185db9573c5f.jpg",
+      
+            "dis": "RRP: $49.99",
+            "price": "$44.99"
+          },
+      
+          {
+            "id": 3,
+            "name": "",
+            "img": "https://gloimg.gbtcdn.com/soa/gb/item/6878025592978206720/16548/goods_thumb_220-v1/22023b63f557.jpg",
+      
+            "dis": "RRP: $49.99",
+            "price": "$44.99"
+          },
+          {
+            "id": 4,
+            "name": "",
+            "img": "https://gloimg.gbtcdn.com/soa/gb/item/6868971002878160896/16547/goods_thumb_220-v1/8237964b5d99.jpg",
+      
+            "dis": "RRP: $1099.00",
+            "price": "$129.00"
+          },
+      
+          {
+            "id": 5,
+            "name": "",
+            "img": "https://gloimg.gbtcdn.com/soa/gb/item/6882689955441864704/16548/goods_thumb_220-v1/c192b9f2af09.jpg",
+      
+            "dis": "RRP: $79.52",
+            "price": "$59.99"
+          },
+      
+          {
+            "id": 6,
+            "name": "",
+            "img": "https://gloimg.gbtcdn.com/soa/gb/item/6771730315905003520/16415/goods_thumb_220-v1/a8e076caa517.jpg",
+      
+    
+            "price": "$7.50"
+          },
+      
+          {
+            "id": 7,
+            "name": "",
+            "img": "https://gloimg.gbtcdn.com/soa/gb/item/6771730315905003520/16415/goods_thumb_220-v1/f587817dc14e.jpg",
+      
+            "dis": "RRP: $79.99",
+            "price": "$39.99"
+          },
+          {
+            "id": 8,
+            "name": "",
+            "img": "https://gloimg.gbtcdn.com/soa/gb/item/6878025592978206720/16480/goods_thumb_220-v2/d916ad202d93.jpg",
+      
+            "dis": "RRP: $1099.00",
+            "price": "$73.99"
+          },
+      
+          {
+            "id": 9,
+            "name": "",
+            "img": "https://gloimg.gbtcdn.com/soa/gb/item/6771730315905003520/16393/goods_thumb_220-v1/9859bd33f57c.jpg",
+      
+            "dis": "RRP: $629.99",
+            "price": "$288.88"
+          },
+          {
+            "id": 10,
+            "name": "",
+            "img": "https://gloimg.gbtcdn.com/soa/gb/store/6771730315905003520/16419/goods_thumb_220-v1/c33785c9c2de.jpg",
+      
+            "dis": "RRP: $81.26",
+            "price": "$59.99"
+          }
+       
+    ]
+}
