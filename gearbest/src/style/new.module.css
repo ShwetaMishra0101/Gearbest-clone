@@ -1,0 +1,66 @@
+.newMainDiv{
+
+    width: 80%;
+    margin: auto;
+    /* height: 10000px; */
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    /* height: 500px; */
+}
+/* .homeMainDiv:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+.new{ 
+   
+     margin: auto;
+    /* border: 1px solid red; */
+    height: 410px;
+   
+    gap: 10px;
+}
+.new:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.new div{
+/* gap: px; */
+height: 400px;
+border: 1px solid rebeccapurple;
+}
+.h3{
+    margin: auto;
+    width: 80%;
+}
+.img{
+    height: 200px;
+}
+
+.icones{
+    font-size: 30px;
+}
+.icone{
+    font-size: 40px;
+}
+.name{
+    line-height: 15px;
+
+}
+
+.name:hover{
+    color: goldenrod;
+
+}
+.price{
+    color: red;
+    font-size: 20px;
+    line-height: 15px;
+
+}
+
+/* populer searchs */
+
+.pop{
+    margin: auto;
+    width: 80%;
+}

@@ -1,0 +1,16 @@
+.maindiv{
+    height: 400px;
+    width: 30%;
+    margin: auto;
+    border: 1px solid red;
+    padding-top: 2% ;
+    margin-top: 2%;
+    justify-content: center;text-align: center;
+
+}
+
+.inp{
+    height: 35px;
+    width: 80%;
+
+}

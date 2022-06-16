@@ -1,9 +1,11 @@
 import React from 'react';
 import styled from './navbar.module.css'
+
 import {Link} from 'react-router-dom'
 
 import { BsCart,BsSuitHeart,BsPerson } from "react-icons/bs";
 const Navbar = () => {
+    
     return <div>
 
 
@@ -75,7 +77,12 @@ const Navbar = () => {
                     </input>
                 </div>
                 <div className={styled.nav2}>
+
+<Link to="/login">
                     <div className={styled.iDiv}><BsPerson className={styled.icone}  / ><div>Sign in</div></div>
+
+                    </Link>
+
                     <div className={styled.iDiv}><BsSuitHeart className={styled.icone}/><div>Favorites</div></div>
                     <div className={styled.iDiv}><BsCart className={styled.icone}/ ><div>Cart</div></div>
                 </div>
@@ -102,7 +109,7 @@ const Navbar = () => {
             </div>
 
             <div>
-                agsj
+               
             </div>
 
     </div>;

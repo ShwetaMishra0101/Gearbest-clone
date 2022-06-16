@@ -1,0 +1,59 @@
+.coupMainDiv{
+
+    width: 80%;
+    margin: auto;
+    /* height: 10000px; */
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    /* height: 500px; */
+}
+/* .homeMainDiv:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+.coup{
+   
+    /* width: 80%; */
+     margin: auto;
+    /* border: 1px solid red; */
+    height: 400px;
+    /* height: 1000px; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(5,1fr); */
+    gap: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+
+}
+.coup:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.coup div{
+/* gap: px; */
+height: 400px;
+border: 1px solid rebeccapurple;
+}
+.h3{
+    margin: auto;
+    width: 80%;
+}
+.img{
+    height: 200px;
+}
+
+.icones{
+    font-size: 30px;
+}
+.icone{
+    font-size: 40px;
+}
+
+.pric{
+    color: red;
+    font-size: 20px;
+}
+
+.name:hover{
+    color: goldenrod;
+}

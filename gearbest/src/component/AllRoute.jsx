@@ -6,14 +6,19 @@ import SuperDeal from './SuperDeal';
 import New from './New';
 import AppOnly from './AppOnly';
 import Home from './Home';
+import HomeUser from './HomeUser';
+import Login from './Login';
 const AllRoute = () => {
     return <div>
      <Routes>
+         <Route path='login' element={<Login />}/>
          <Route path='/' element={<Home />}/>
+        <Route path='/:id' element={<HomeUser/>}/>
        <Route path='/coupon' element={<Coupon/>}/>
        <Route path='/super' element={<SuperDeal/>}/>
        <Route path='/app' element={<AppOnly/>} />
        <Route path='/new' element={<New/>} />
+       {/* <Route path='/col' element={<AppOnly/>}/> */}
      </Routes>
     </div>;
 }

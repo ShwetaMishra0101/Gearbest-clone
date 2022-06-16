@@ -1,6 +1,6 @@
 .footer{
     
-    height: 100px;
+    height: 90px;
     width: 80%;
     
     border: 1px solid red;
@@ -23,7 +23,7 @@
 
 .footer2nddiv{
 
-  height: 100px;
+  height: 90px;
   width: 80%;
   
   border: 1px solid red;
@@ -103,8 +103,8 @@ justify-content: space-evenly;
 }
 .icon1Height:hover{
   background-color: blue;
-  font-size: 30px;
-  justify-content: center;
+  font-size: 30px; 
+ justify-content: center;
 }
 .icon2Height:hover{
   background-color: red;
@@ -125,4 +125,4 @@ justify-content: space-evenly;
   background-color: blue;
   font-size: 30px;
   justify-content: center;
-}
+} 

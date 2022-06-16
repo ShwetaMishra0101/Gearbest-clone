@@ -3,33 +3,34 @@
 import Navbar from './navbar/Navbar';
 import Footer from './footer/Footer';
 import data from './home.json'
-
+import Slideshow from './component/Slider'
 import Home from './component/Home'
 import React,{useState} from 'react'
 // console.log(data)
-// import AllRoute from './component/AllRoute';
+import AllRoute from './component/AllRoute';
+import Timer from './component/Timer';
+import { BiSlider } from 'react-icons/bi';
+import Slider from './component/Slider';
 
 
 function App() {
-  console.log(data)
-  const [num,setData]= useState(data)
+ 
   return (
     <div className="App">
 
-{num && num.map(({name,id})=>(
-  <div>
-    <p>{name}</p>
-  </div>
-))}
+{/* <Slider /> */}
+
      
      <Navbar />
 
-    
-    {/* <AllRoute /> */}
+    {/* <Home /> */}
+    <AllRoute />
 
-   
+    {/* <Timer /> */}
 
-     {/* <Footer /> */}
+   {/* <BiSlider/> */}
+
+     <Footer />
 
     </div>
   );
