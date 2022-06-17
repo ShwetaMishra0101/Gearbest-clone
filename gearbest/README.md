@@ -1,4 +1,4 @@
-# Unit 4 project
+# Gearbest-Clone
 <p>We had to clone the Dermstore website. Basically, it’s a E-commers site . We have tried to clone the pixel perfect website with the help of JavaScript, React and Redux .</p>
 <h3>Click on the link to view the project:- <a herf="https://gearbest-clone-1.netlify.app/"></a> </h3>
 
