@@ -82,8 +82,8 @@ const CheckedOut = () => {
               className={styled.inp}
               type="text"
              
-              placeholder="Username"
-              aria-label="Phonenumber"
+            
+             
               aria-describedby="addon-wrapping"
               required
             />
