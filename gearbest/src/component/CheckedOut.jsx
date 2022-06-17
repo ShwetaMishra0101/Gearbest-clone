@@ -2,15 +2,14 @@ import React from "react";
 import styled from "../style/checked.module.css";
 
 const CheckedOut = () => {
-    onsubmit =()=>{
-        alert("sucess")
-    }
+  onsubmit = () => {
+    alert("sucess");
+  };
   return (
     <div className={styled.chMianDiv}>
       <h1>Add New Address</h1>
       <div className={styled.childDiv}>
         <form onSubmit={onsubmit}>
-            
           <label htmlFor="">First name:</label>
           <input className={styled.inp} type="text" name="" id="" required />
           <br />
@@ -20,7 +19,14 @@ const CheckedOut = () => {
           <br />
           <br />
           <label htmlFor="">Address Line 1:</label>
-          <input className={styled.inp} type="text" name="" id="" placeholder="Street address, flat,suite, unit, building,floor,etc."  required/>
+          <input
+            className={styled.inp}
+            type="text"
+            name=""
+            id=""
+            placeholder="Street address, flat,suite, unit, building,floor,etc."
+            required
+          />
           <br />
           <br />
           <label htmlFor="">Address Line 2:</label>
@@ -29,11 +35,7 @@ const CheckedOut = () => {
           <br />
           <label htmlFor="">Country/Region:</label>
           <select
-
-className={styled.inp}
-            
-            class="form-select"
-            aria-label="Default select example"
+            className={styled.inp}  
           >
             <option selected>United States</option>
             <option value="1">Brazil</option>
@@ -51,12 +53,7 @@ className={styled.inp}
           <br />
           <br />
           <label htmlFor="">State / Province:</label>
-          <select 
-          className={styled.inp}
-          
-            class="form-select"
-            aria-label="Default select example"
-          >
+          <select className={styled.inp} >
             <option selected>Please Select</option>
             <option value="1">Alabama</option>
             <option value="2">Alaska</option>
@@ -78,30 +75,26 @@ className={styled.inp}
           <input className={styled.inp} type="text" name="" id="" />
           <br />
           <br />
-          
-          <div class="input-group flex-nowrap">
-          <label htmlFor="">Phone Number:</label>
-            <span class="input-group-text" id="addon-wrapping">
-              +1 
-            </span>
-            
-            <input 
-         
-         className={styled.inp}
+
+          <div >
+            <label htmlFor="">Phone Number:</label>
+            <input
+              className={styled.inp}
               type="text"
-              class="form-control"
+             
               placeholder="Username"
               aria-label="Phonenumber"
-              aria-describedby="addon-wrapping" required
+              aria-describedby="addon-wrapping"
+              required
             />
           </div>
           <br />
           <br />
           <label htmlFor="">E-mail Address:</label>
-          <input className={styled.inp} type="email" name="" id="" required />
+          <input className={styled.inp} type="email" name="" id="" required />
           <br />
           <br />
-          <input type="checkbox" name="" id="" required/>
+          <input type="checkbox" name="" id="" required />
           <label htmlFor="">Set as my default address</label>
           <br />
           <br />
