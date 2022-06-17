@@ -86,7 +86,7 @@ img{
 
 .chekDiv{
     height: 200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
 }
