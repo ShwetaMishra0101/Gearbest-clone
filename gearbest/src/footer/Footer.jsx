@@ -4,12 +4,12 @@ import { BiStore } from "react-icons/bi";
 import { IoLogoFacebook, IoLogoInstagram ,IoLogoMessanger, IoLogoPinterest, IoLogoYoutube} from "react-icons/io5";
 import styled from './footer.module.css'
 const Footer = () => {
-    return <div style={{height:"1100px",width:"100%",border:'1px solid blue'}}>
+    return <div style={{height:"1100px",width:"100%"}}>
 
         <div className={styled.footer} >
 
             <div>
-                <img src="https://css.gbtcdn.com/imagecache/gbw/img/site/new-logo.png" alt="" />
+                <img className={styled.img} src="https://css.gbtcdn.com/imagecache/gbw/img/site/new-logo.png" alt="" />
                 <h4>AFFORDABLE QUALITY</h4>
                 <h4>FUN SHOOPING</h4>
             </div>
@@ -34,7 +34,7 @@ const Footer = () => {
                 <p>professional support</p>
             </div>
         </div>
-        <div className={styled.footer2nddiv} style={{height:"70px",border:"1px solid red",display:'flex',gap:"20px",justifyContent:"space-between"}}>
+        <div className={styled.footer2nddiv} style={{height:"70px",display:'flex',gap:"20px",justifyContent:"space-between"}}>
 
             <div >
             <label htmlFor=""> <b> Newsletter </b></label>
@@ -45,21 +45,17 @@ const Footer = () => {
             </div>
             <div style={{display:"flex"}}>
             
-            <div style={{height:"30px",width:"60%", backgroundColor:"black",borderRadius:"50%", color:"white"}}><  IoLogoFacebook className={styled.icon1Height} /></div>
-            <div><IoLogoYoutube  className={styled.icon2Height}/ ></div>
-            <div><IoLogoInstagram  className={styled.icon3Height}/></div>
+            <div ><  IoLogoFacebook className={styled.iconHeight} /></div>
+            <div><IoLogoYoutube  className={styled.iconHeight}/ ></div>
+            <div><IoLogoInstagram  className={styled.iconHeight}/></div>
             <div><IoLogoPinterest  className={styled.iconHeight}/></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+           
 
             </div>
         </div>
 
 
-        <div className={styled.footer3nddiv} style={{display:"flex",border:"1px solid red",height:"300px",justifyContent:"space-between"}}>
+        <div className={styled.footer3nddiv} style={{display:"flex",height:"300px",justifyContent:"space-between"}}>
             <div>
                 <h4>Company Information</h4>
                 <p className={styled.p}>About Us</p>
@@ -100,78 +96,78 @@ const Footer = () => {
                 </div>
         </div>
 
-        <div className={styled.lastDivfooter} style={{height:"100px",display:"grid",gridTemplateColumns:"repeat(14,1fr)",gap:"10px"}}>
+        <div className={styled.lastDivfooter} style={{height:"100px",display:"grid",gridTemplateColumns:"repeat(14,1fr)",gap:"10px",justifyContent:"center",textAlign:"center"}}>
             <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/money.png" alt="" />
-            </div>
-            <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/m.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/money.png" alt="" />
             </div>
             <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/rese.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/m.png" alt="" />
             </div>
             <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/paypal.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/rese.png" alt="" />
             </div>
             <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/visa.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/paypal.png" alt="" />
             </div>
             <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/a.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/visa.png" alt="" />
             </div>
             <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/ww.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/a.png" alt="" />
+            </div>
+            <div>
+            <img className={styled.img}  src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/ww.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/jcb.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/jcb.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/dic.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/dic.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/ya.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/ya.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/d.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/d.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/qiwi.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/qiwi.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/oxxo.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/oxxo.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/webmoney.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/webmoney.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/bo.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/bo.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/postepay.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/postepay.png" alt="" />
             </div>
              <div  >
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/giropay.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/giropay.png" alt="" />
             </div>
              <div style={{width:"80%"}} >
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/sofort.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/sofort.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/eps.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/eps.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/p.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/p.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/pago.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/pago.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/others/20190222_7819/Visa-Logo.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/others/20190222_7819/Visa-Logo.png" alt="" />
             </div>
              <div>
-            <img src="https://uidesign.gbtcdn.com/GB/image/others/20190222_7819/m-Logo.png" alt="" />
+            <img className={styled.img} src="https://uidesign.gbtcdn.com/GB/image/others/20190222_7819/m-Logo.png" alt="" />
             </div>
         </div>
-        <div style={{backgroundColor:"black",color:"white",textAlign:"center"}}>Copyright © 2014-2022 Gearbest.com. All Rights Reserved.</div>
+        <div style={{backgroundColor:"black",color:"white",textAlign:"center",height:"40px"}}>Copyright © 2014-2022 Gearbest.com. All Rights Reserved.</div>
     </div>;
 }
 

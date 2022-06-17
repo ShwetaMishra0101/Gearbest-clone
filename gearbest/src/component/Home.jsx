@@ -40,7 +40,9 @@ const [superdata,setSuperData] = useState(supers)
         <p className={styled.p}>Watches & Jewelry</p>
         <p className={styled.p}>Gearbest Promotion</p>
       </div>
-      <div>d</div>
+      <div className={styled.slidsecondDiv}> 
+        <img style={{height:"400px",width:"100%"}} src="https://uidesign.gbtcdn.com/GB/image/8823/ORTUR_1190X420_EN.jpg?queryFrom=soa" alt="" />
+      </div>
     </div>
 
     <div className={styled.frstDivfooter}>
@@ -61,13 +63,16 @@ const [superdata,setSuperData] = useState(supers)
 
       {/* collection */}
 
-      <div> COLLECTION </div>
+      <div style={{width:"80%",margin:"auto"}}> <h1>COLLECTION</h1> 
+      
+      </div>
 
       <div className={styled.colmainDiv}>
         
       {/* <Link to="/col" > */}
         
         <div className={styled.colFirstDiv}>
+          <img style={{height:"250px"}} src="https://gloimg.gbtcdn.com/soa/gb/item/6898341271098814464/16465/goods_img-v1/8fc8853ff3b3.jpg" alt="" />
 
         </div>
         {/* </Link> */}
@@ -88,10 +93,13 @@ const [superdata,setSuperData] = useState(supers)
 
     {/* supper deal */}
 
-    <div>SUPER DEALS</div>
+    <div style={{width:"80%",margin:"auto"}}><h1>SUPER  DEALS </h1> </div>
 
     <div className={styled.superMain}>
-      <div className={styled.firstDiv}>sd</div>
+      <div className={styled.firstDiv}>SUPER <br /> DEALS 
+      <br />
+      <img src="https://uidesign.gbtcdn.com/GB/image/2333/superdeals.png" alt="" />
+      </div>
       
       <div className={styled.secondDivsuper}>
         {superdata&&superdata.map(({img,name,price,id,dis})=>{
@@ -125,7 +133,7 @@ const [superdata,setSuperData] = useState(supers)
        {/* <div> */}
        <p className={styled.name}>{name}</p>
        <h3 className={styled.price}>{Price}</h3>
-       <Link to={`/${id}`}>num</Link>
+       {/* <Link to={`/${id}`}>num</Link>  */}
        {/* </div> */}
      </div>
    })}

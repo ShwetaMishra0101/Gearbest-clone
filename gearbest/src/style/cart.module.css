@@ -1,0 +1,112 @@
+.cartDiv{
+
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    /* border: 1px solid red; */
+
+    margin-top: 5%;
+    justify-content: center;
+    /* text-align: center; */
+ 
+
+}
+.headingDiv{
+
+    height: 60px;
+    /* border: 1px solid black; */
+    /* width: 80%; */
+    margin: auto;
+    display: flex;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    margin-bottom: 2%;
+  
+  
+
+}
+
+.hFirstDiv{
+    width: 40%;
+    /* border: 1px solid blue; */
+   
+}
+
+.hsecondDiv{
+    width: 60%;
+    /* border: 1px solid green; */
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+}
+
+.cart{
+    height: 180px;
+    /* width: 80%; */
+    /* margin: auto; */
+    /* border: 1px solid teal; */
+    display: flex;
+    margin-bottom: 3%;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.firstDiv{
+    height: 120px;
+    width: 10%;
+    border: 1px solid gainsboro;
+
+}
+img{
+    height: 100px;
+    width: 100%;
+}
+.secDiv{
+    width: 28%;
+    margin-right: 80px;
+    
+}
+
+.thrdDiv{
+    margin-top: 2%;
+    margin-left: 90px;
+}
+.fDiv{
+    margin-left: 100px;
+    color: red;
+    margin-top: 2%;
+}
+.fifDiv{
+    margin-left: 100px;
+    /* color: red; */
+    margin-top: 2%;
+    line-height: 15px;
+}
+.p:hover{
+    color: gold;
+   
+}
+
+.chekDiv{
+    height: 200px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgDiv{
+    display: flex;
+}
+.mDivckek{
+    display: flex;
+}
+.ckImg{
+    height: 30px;
+    width: 80%;
+    margin-top: 15%;
+}
+.mDivckek2{
+    display: flex;
+    gap: 40px;
+   
+}
+.h2{
+    color: red;
+}

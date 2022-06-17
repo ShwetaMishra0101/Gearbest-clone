@@ -8,6 +8,8 @@ import AppOnly from './AppOnly';
 import Home from './Home';
 import HomeUser from './HomeUser';
 import Login from './Login';
+import Cart from './Cart';
+import CheckedOut from './CheckedOut';
 const AllRoute = () => {
     return <div>
      <Routes>
@@ -18,6 +20,8 @@ const AllRoute = () => {
        <Route path='/super' element={<SuperDeal/>}/>
        <Route path='/app' element={<AppOnly/>} />
        <Route path='/new' element={<New/>} />
+       <Route path='/cart' element={<Cart/>}/>
+       <Route path='/check' element={<CheckedOut/>}/>
        {/* <Route path='/col' element={<AppOnly/>}/> */}
      </Routes>
     </div>;

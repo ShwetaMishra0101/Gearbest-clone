@@ -11,6 +11,7 @@ import AllRoute from './component/AllRoute';
 import Timer from './component/Timer';
 import { BiSlider } from 'react-icons/bi';
 import Slider from './component/Slider';
+import Counter from './footer/Counter';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
 
      <Footer />
 
+{/* <Counter/> */}
     </div>
   );
 }

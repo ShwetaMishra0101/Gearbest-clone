@@ -1,11 +1,14 @@
 .maindiv{
-    height: 400px;
+    height: 500px;
     width: 30%;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-top: 2% ;
-    margin-top: 2%;
+    margin-top: 5%;
     justify-content: center;text-align: center;
+    margin-bottom: 5%;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    line-height: 20px;
 
 }
 
@@ -13,4 +16,21 @@
     height: 35px;
     width: 80%;
 
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.btn{
+    height: 50px;
+    width: 80%;
+    background-color: rgb(251, 193, 6);
+    color: #000;
+    
+}
+.imgg{
+    height: 50px;
+    width: 18%;
 }

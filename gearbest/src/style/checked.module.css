@@ -1,0 +1,25 @@
+.chMianDiv{
+    height: 10
+    00px;
+    width: 80%;
+    margin: auto;
+    /* border :1px solid red ; */
+
+}
+
+.childDiv{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid grey; */
+    height: 900px;
+    text-align: center;
+}
+.inp{
+    height: 40px;
+    width: 40%;
+}
+.btn{
+    width: 13%;
+    height: 40px;
+    background-color: rgb(255, 179, 0);
+}

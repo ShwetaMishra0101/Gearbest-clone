@@ -9,6 +9,8 @@
     grid-template-columns: repeat(5,1fr);
     gap: 10px;
     /* height: 500px; */
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 /* .homeMainDiv:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -17,7 +19,7 @@
    
      margin: auto;
     /* border: 1px solid red; */
-    height: 410px;
+    height: 450px;
    
     gap: 10px;
 }
